@@ -1,0 +1,99 @@
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+     .container2{
+        display: flex;
+        text-align: left;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .header1{
+        font-size: 40px;
+        display: flex;
+        text-align: left;
+    }
+
+    .mb20{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;
+        height: auto;
+    }
+
+    .container5{
+        width: 30px;
+        height: auto;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+   /*  .container2{
+        display: flex;
+        text-align: left;
+        width: 70%;
+        height: auto;
+    }
+
+    .header1{
+        font-size: 40px;
+        display: flex;
+        text-align: left;
+    }
+
+    .mb20{
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 70%;
+        height: auto;
+    }
+
+    .container5{
+        width: 65%;
+        height: auto;
+    } */
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .container2{
+        display: flex;
+        text-align: left;
+    }
+
+    .header1{
+        font-size: 40px;
+        display: flex;
+        text-align: left;
+    }
+
+    .mb20{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
